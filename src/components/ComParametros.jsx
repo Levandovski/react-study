@@ -1,8 +1,8 @@
-import React from 'core-js/library/fn/reflect/es7/metadata'
+import React from 'react'
 
 
-export default () =>
+export default param =>
     <>
-        <h3>Titulo</h3>
-        <p>Subtitulo</p>
+        <h3>{param.titulo}</h3>
+        <p>{param.subtitulo}</p>
     </>
