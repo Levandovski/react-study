@@ -19,7 +19,7 @@ export default (props) =>(
         <h1>Fundamentos do React</h1>     
         <div className="Cards">
             <Card titulo="#10 Contador" color="#FA6900">
-                <Contador />
+                <Contador passo={10} valor={100}/>
             </Card>
             <Card titulo="#09 Form Input" color="#FA6900">
                 <Input />
