@@ -7,11 +7,24 @@ import Card from './components/layout/Card';
 import Repeticao from './components/basicos/Repeticao';
 import Condicional from './components/basicos/Condicional';
 import CondicionalComIF from './components/basicos/CondicionalComIf';
-import Api from './Api';
+//import Api from './Api';
+import Pai from './components/comunicacao/direta/Pai';
+import Super from './components/comunicacao/indireta/Super';
+import Input from './components/form/Input';
+
 
 export default (props) =>(
     
     <div className="App">        
+        <Card titulo="#09 Form Input" color="#FA6900">
+            <Input />
+        </Card>
+        <Card titulo="#08 Comunicação Indireta" color="#FA6900">
+            <Super />
+        </Card>
+        <Card titulo="#07 Comunicação Direta" color="#FA6900">
+            <Pai sobrenome='Freitas'/>
+        </Card>
         <Card titulo="#06 Componente Com Condicional v2" color="#FA6900">
             <CondicionalComIF numero={12}/>
         </Card>
