@@ -7,10 +7,11 @@ import Card from './components/layout/Card';
 import Repeticao from './components/basicos/Repeticao';
 import Condicional from './components/basicos/Condicional';
 import CondicionalComIF from './components/basicos/CondicionalComIf';
-
+import Api from './Api';
 
 export default (props) =>(
-    <div className="App">
+    
+    <div className="App">        
         <Card titulo="#06 Componente Com Condicional v2" color="#FA6900">
             <CondicionalComIF numero={12}/>
         </Card>

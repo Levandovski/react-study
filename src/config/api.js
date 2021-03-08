@@ -2,7 +2,7 @@ import axios from 'axios';
 
 
 const api= axios.create({
-    baseUrl:' https://swapi.dev/api/'.
+    baseURL: 'https://api.tvmaze.com/search/shows?q='
 });
 
 
